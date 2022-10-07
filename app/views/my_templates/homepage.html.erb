@@ -59,15 +59,37 @@
 <h3>Any text</h3>
 
 <!-- Write your form here -->
+<form action="/text">
+<input name="content">
+<button>Generate QR code</button>
+</form>
 
 <h3>URL</h3>
 
 <!-- Write your form here -->
+<form action="/url">
+<input name="page">
+<button>Generate QR Code</button>
+</form>
 
 <h3>Wifi network</h3>
 
 <!-- Write your form here -->
+<form action="/wifi">
+<label for="wifi">Network name:</label>
+<input id="wifi" name="ssid"><br>
+<label for="password">Network password:</label>
+<input id="password" name="pw"><br>
+<button>Generate QR Code</button>
+</form>
 
 <h3>Text message</h3>
 
 <!-- Write your form here -->
+<form action="/sms">
+<label for="sms">Phone number:</label>
+<input id="sms" name="phone"><br>
+<label for="text">Message:</label>
+<input id="text" name="message"><br>
+<button>Generate QR Code</form>
+</form>
